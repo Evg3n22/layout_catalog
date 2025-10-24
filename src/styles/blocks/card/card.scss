@@ -3,7 +3,7 @@
 
   width: 200px;
   border: 1px solid #f3f3f3;
-  border-radius: 5px;
+  border-radius: $card-border-radius;
 
   padding: 0 16px;
 
@@ -108,20 +108,20 @@
   }
 }
 
-.stars {
-  margin-top: 16px;
-}
+// .stars {
+//   margin-top: 16px;
+// }
 
-.stars__reviews {
-  font-weight: 400;
-  font-size: 10px;
-  line-height: 14px;
-  letter-spacing: 0%;
-  text-align: right;
-  vertical-align: bottom;
+// .stars__reviews {
+//   font-weight: 400;
+//   font-size: 10px;
+//   line-height: 14px;
+//   letter-spacing: 0%;
+//   text-align: right;
+//   vertical-align: bottom;
 
-  color: $main-text-color;
+//   color: $main-text-color;
 
-  margin-left: auto;
-  align-self: end;
-}
+//   margin-left: auto;
+//   align-self: end;
+// }

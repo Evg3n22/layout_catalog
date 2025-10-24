@@ -44,7 +44,7 @@
   }
 
   &:hover .card__description {
-    color: #34568b;
+    color: $card-description-color;
   }
 
   &__button {
