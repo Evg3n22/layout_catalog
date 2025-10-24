@@ -46,11 +46,13 @@ body {
 }
 
 .nav__link {
+  transition-duration: $card-hover-duration;
+
   position: relative;
   height: 60px;
   display: flex;
   align-items: center;
-  color: #000;
+  color: #060b35;
   text-decoration: none;
   cursor: pointer;
   line-height: 15px;
@@ -60,13 +62,13 @@ body {
   font-family: Roboto, sans-serif;
   font-weight: 500;
 
-  &:hover{
+  &:hover {
     color: var(--active-color);
   }
-  &.is-active{
+  &.is-active {
     color: var(--active-color);
 
-    &::after{
+    &::after {
       display: flex;
       position: absolute;
       content: '';

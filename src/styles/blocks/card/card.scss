@@ -47,7 +47,6 @@
     margin-top: 4px;
   }
 
-
   &__price {
     margin-top: 24px;
 
@@ -110,19 +109,19 @@
 }
 
 .stars {
-    margin-top: 16px;
-  }
+  margin-top: 16px;
+}
 
 .stars__reviews {
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 14px;
-    letter-spacing: 0%;
-    text-align: right;
-    vertical-align: bottom;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0%;
+  text-align: right;
+  vertical-align: bottom;
 
-    color: $main-text-color;
+  color: $main-text-color;
 
-    margin-left: auto;
-    align-self: end;
-  }
+  margin-left: auto;
+  align-self: end;
+}
